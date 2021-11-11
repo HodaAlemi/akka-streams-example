@@ -1,0 +1,40 @@
+*.class
+*.log
+
+.history
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+
+projectFilesBackup/
+
+/project/boot/
+/project/plugins/project
+
+\.classpath
+\.project
+\.settings
+
+\.cache
+
+/.idea/
+test-output/
+*.iml
+
+# RStudio
+/R-info/.*
+.Rhistory
+/src/test/resources/R/*.pdf
+/src/test/resources/R/.RData
+/bin
+.sbtopts
+.DS_Store
+raf-conf/src/main/environments/LOCAL/environment.conf
